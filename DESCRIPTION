@@ -1,0 +1,10 @@
+Package: cRisk
+Type: Package
+Title: Estimating the cumulative risk of multiple false positive screening tests
+Version: 0.1
+Authors@R: c(person("Marzieh", "Kadkhodaei Golmakani", role = c("aut", "cre"), email = "marzieh.kadkhodaei@gmail.com"))
+Description: The cRisk package represents a convenient way to implement the new methodologies that are the extensions of the existing estimators. It utilizes a non-homogeneous Markov chain for modeling repeat screening     test result and estimating the cumulative risk of multiple false positive results across a recommended program of repeat screening based on some extensions of the existing estimators for cumulative risk of a single false     positive result.
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+Imports: plyr, dplyr, nnet
+URL: https://github.com/kgolmakani/cRisk
