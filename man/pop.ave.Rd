@@ -1,5 +1,5 @@
-\name{pop.ave}
-\alias{pop.ave}
+\name{pop.avg}
+\alias{pop.avg}
 
 \title{
 Cumulative risk of multiple false positive screening test under population average model. 
@@ -8,7 +8,7 @@ Cumulative risk of multiple false positive screening test under population avera
 A function for calculating the cumulative risk of multiple false positive screening test under population average model. 
 }
 \usage{
-pop.ave (data, fpl.cens, functions1, functions2,l,M)
+pop.avg (data, fpl.cens, functions1, functions2,l,M)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
