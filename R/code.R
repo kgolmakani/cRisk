@@ -392,7 +392,7 @@ f3 = function(x, h, functions1){
 }
 
 
-pop.ave = function(data,fpl.cens, functions1, functions2,l,M){
+pop.avg = function(data,fpl.cens, functions1, functions2,l,M){
   p1 = summary(factor(data$S[!duplicated(data$StudyID_c)],levels=c(1:M)))/length(data$S[!duplicated(data$StudyID_c)]) 
   P = 0 # initial probability
   for (j in l:M)
